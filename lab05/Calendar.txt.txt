@@ -1,0 +1,6 @@
+A classe calendário tem 2 construtores com parâmetros diferentes, sendo que cada um constrói com os parâmetros especificados.
+ Os construtores são PROTECTED para serem acedidos fora do pacote. A fim de isntanciar a classe temos 
+4 métodos que servem como construtores com parâmetros diferentes.
+Todos os métodos chamam a função CreateCalendar() que vai criar um Calendário e devolvê-lo, funcionando como uma factory que pode criar vários tipos
+de calendários consoante o "construtor" que foi usado.
+Concluimos que o calendar apresneta o padrão factory creational design.
