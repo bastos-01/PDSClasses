@@ -1,0 +1,18 @@
+Aula 11
+
+x1)
+	a) Padrão Strategy.
+	
+	b) (Em anexo)
+
+	c) (Em anexo)
+
+x2)
+
+ java.nio.OutputStream - O método template está no método "public abstract void write(int b)" que é chamado pelo
+ método "public void write(byte b[], int off, int len)" que tem de ser implementado pela subclass OutputStream.
+ 
+ java.nio.InputStream - O método template está no método "public int write(byte b[], int off, int len)" que é chamado pelo 
+ método "public int read(int b)" que tem de ser implementado pela subclass Inputstream.
+
+ java.util.AbstractList - presente nos métodos add e remove
